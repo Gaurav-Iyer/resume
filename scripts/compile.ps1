@@ -1,6 +1,6 @@
 param(
     [switch]$WWOrdering,
-    [switch]$SkillsFirst
+    [switch]$SkillsFirst = $true
 )
 
 $scriptDir = $PSScriptRoot
